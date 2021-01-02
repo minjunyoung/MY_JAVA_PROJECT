@@ -8,7 +8,9 @@ public class StringTest {
 		String money = "10000";
 		int intYear = Integer.parseInt(year);
 		
-		System.out.println(king + ":" + money);
+		System.out.println(king + 72
+				
+				+ money);
 		System.out.println(year + "³â" );
 		System.out.println(money + year);
 		System.out.println(intYear + Integer.parseInt(money));
