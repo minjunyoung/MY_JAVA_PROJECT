@@ -21,19 +21,32 @@ public class Workshop04 {
         System.out.println( " 4. 크림치즈   500원\n" );
         
         
-        
         System.out.println( "========= 주문 =========" );
         System.out.print( " 아메리카노 주문 수량 : " );
         int americano = getUserInput();
-        int americano = americano * 2000;
+        int americano1 = americano * 2000;
+        System.out.println(" 아메리카노 : "+ "원");
+        
         System.out.print( " 카페라떼 주문 수량 : " );
         int latte = getUserInput();
-        int latte = latte * 3000;
+        int latte1 = latte * 3000;
+        System.out.println(" 카페라떼 : "+ "원");
         System.out.print( " 베이글 주문 수량 : " );
         int bagel = getUserInput();
-        int bagel
+        int bagel1 = bagel * 1500;
+        System.out.println(" 베이글 : "+ "원");
         System.out.print( " 크림치즈 주문 수량 : " );
         int creamcheese = getUserInput();
+        int creamcheese1  = creamcheese * 500;
+        System.out.println(" 크림치즈 : "+ "원");
+        System.out.println(" =========금액===========");
+        System.out.println();
+        
+       
+        int totalExpanse = 0;
+        System.out.println("총 비용은 " + totalExpanse +"원 입니다.");
+        
+        
     }
     
     public static int getUserInput() {

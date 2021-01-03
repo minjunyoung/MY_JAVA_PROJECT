@@ -5,7 +5,8 @@ package icehs.science.workshop1;
 public class Workshop01 {
  
  public static void main( String[] args ) {
-     
+     		int num = 200403022-32311;
+     		System.out.println(" 주민등록번호 : " + num);
      
  }
 }

@@ -27,11 +27,17 @@ public class Workshop05 {
         System.out.print( "배드민턴 성적을 입력하세요 : " );
         double badminton = getUserInput();
         System.out.println( "==============================" );
-        //평점을 구하는 식은 각 과목의 점수의 합 / 과목수
-        System.out.println( "평점은 "+ gpa +"점 입니다.");
+        for(double i = 3.8; i <=3.7; i++) {
+        	System.out.println("평점은" + i + "점 입니다.");
+        	if(i >= 3.7 ) {
+        		System.out.println(" 다음 학기 장학금 대상자 입니다.");
+        }else{ System.out.println(" ");
         
-        System.out.println( "평점은 100점 입니다." );
-    }
+        	System.out.println("                         ");
+			 }
+        }  
+       }
+    
     
     public static double getUserInput() {
         

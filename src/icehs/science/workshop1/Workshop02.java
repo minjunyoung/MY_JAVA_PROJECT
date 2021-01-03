@@ -6,7 +6,10 @@ package icehs.science.workshop1;
 public class Workshop02 {
  
 	public static void main( String[] args ) {
+			int number = 456;
+			
      
-     
+			System.out.println((number/100) * 100);
+			
  	}
 }
