@@ -27,7 +27,7 @@ public class Workshop05 {
         System.out.print( "배드민턴 성적을 입력하세요 : " );
         double badminton = getUserInput();
         System.out.println( "==============================" );
-        //평점을 구하는 식은 각 과목의 점수의 합 / 과목수
+        //평점을 구하는 식은 각 과목의 점수의 합 / 과목수 github.com bkuk1969dkslwlaksepfhwjfjgrpwsQkfmrpgkaus ekddusglwlsmstnlqrpTwlwjrpanjsirh dkffuwnsnsrjgkskdjqtdlwlghswkaksrksmsepsnrwkfEkkfrktjqodnjTejssodyddmfqhrtmqgkrhEkkgkrrpTsi
         System.out.println( "평점은 "+ gpa +"점 입니다.");
         
         System.out.println( "평점은 100점 입니다." );
