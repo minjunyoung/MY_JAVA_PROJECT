@@ -8,10 +8,6 @@ public class Chocolate {
 	String getName() {
 		return name;
 	}
-	
-	int calculateTotalPrice(int count) {
-		return count * price;
-		name = newName;
 		price = newPrice;
 		void changeChocolateInfo( String newName, int newPrice) {
 			name = newName;
@@ -20,4 +16,8 @@ public class Chocolate {
 		}
 	}
 
-}
+
+
+
+
+

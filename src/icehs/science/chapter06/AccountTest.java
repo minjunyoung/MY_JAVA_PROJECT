@@ -11,7 +11,7 @@ public class AccountTest {
 		acc.printAccountINfo();
 		acc.deposit(20000);
 		System.out.println("ภÜพื : " + acc.balance + "ฟ๘");
-		acc.wihtdraw(0)
+		acc.wihtdraw(0);
 		acc.wihtdraw(45000);
 		System.out.println("ภÜพื : " + acc.balance + "ฟ๘");
 	}
