@@ -4,7 +4,7 @@ public class BookTest {
 
 	public static void main(String[] args) {
 		Book book1 = new Book();
-		book1.title = "아즈카반의 죄수";
+		book1.setTitle("아즈카반의 죄수"); //book1.title = "아즈카반의 죄수";
 		book1.price = 15000;
 		book1.printBookInfo();
 		
