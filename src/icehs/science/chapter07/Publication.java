@@ -4,8 +4,21 @@ public class Publication {
 	private String title;
 	private int price;
 	private int page;
+	static int numberOfObjects = 0;
 	
+	public Publication(String title, int price, int page) {
+		this.numberOfObjects++;
+		this.title = title;
+		this.price = price;
+		this.page = page;
+		
+		
+	}
 	
+	public Publication() {
+		this.numberOfObjects++;
+		
+	}
 	public String getTitle() {
 		return title;
 	}
