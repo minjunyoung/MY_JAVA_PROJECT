@@ -11,3 +11,6 @@ public class AccountCaculatorTest {
 	}
 
 }
+public void printAccountInfo() {
+	System.out.println("°èÁÂ¹øÈ£ : " + this.number + " / ÀÜ¾× : " + this.balance + " / ÀÌÀ²  : " + this.interestRate);
+}
