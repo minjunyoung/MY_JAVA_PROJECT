@@ -6,6 +6,6 @@ public class MobileTest {
 		phones[0].call(5);
 		phones[0].change(30);
 		phones[1].call(10);
-		phones[1].change(15);
+		phones[1].change(15);	
 	}
 }
