@@ -47,6 +47,7 @@ public class Ship {
 	public void setReplacement(int replacement) {
 		this.replacement = replacement;
 	}
+	
 
 	public boolean isAvailable() {
 		return available;

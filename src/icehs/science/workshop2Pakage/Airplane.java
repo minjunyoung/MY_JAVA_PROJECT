@@ -1,5 +1,6 @@
 package icehs.science.workshop2Pakage;
 
+
 public class Airplane {
 	private String modelName;
 	private int maxSpeed;

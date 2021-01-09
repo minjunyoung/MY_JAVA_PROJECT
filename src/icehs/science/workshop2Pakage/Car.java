@@ -1,5 +1,6 @@
 package icehs.science.workshop2Pakage;
 
+
 public class Car {
 	private String modelName;
 	private int maxSpeed;

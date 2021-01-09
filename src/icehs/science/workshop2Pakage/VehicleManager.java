@@ -28,6 +28,7 @@ public class VehicleManager {
 		shipArr[0] = new Ship("크루즈2",30,400,35000);
 		
 		
+		
 		shipArr[1] = new Ship("노틸러스",25,150,15000);
 	}
 		
