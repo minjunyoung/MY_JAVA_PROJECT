@@ -24,6 +24,8 @@ public class VehicleManager {
 		vehicles[6] = new Ship("노틸러스", 25, 150, 15000);
 	}
 	
+	
+	
 	public void displayVehicles(String title) {
 		System.out.println(title);
 		
@@ -32,15 +34,21 @@ public class VehicleManager {
 			vehicles[inx].setAvailable(true);
 		}
 		
+		
+		
 		for (int inx = 0 ; inx < 5 ; inx++) {
 			vehicles[inx].displayInfo();
 			vehicles[inx].setAvailable(true);
 		}
 		
+		
+		
 		for (int inx = 0 ; inx < 7 ; inx++) {
 			vehicles[inx].displayInfo();
 			vehicles[inx].setAvailable(true);
 		}
+		
+		
 		
 		System.out.println();
 	}
