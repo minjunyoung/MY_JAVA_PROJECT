@@ -7,4 +7,5 @@ public class VehicleDriver {
 		VehicleManager vm = new VehicleManager();
 		vm.displayVehicles(">> 재고 목록 <<");
 	}
-}
+} 
+
